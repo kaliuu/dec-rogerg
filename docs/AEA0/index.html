@@ -1,11 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cat">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> AEA0 </title>
 </head>
 <body>
-    A
+    <h2> 1. Què és Vanilla Javascript? </h2>
+        El terme vanilla javascript s'utilitza per referirse a javascript sense cap tipus <br>
+        de llibreria o extensió.
+    <h2> 2. Diferència els ECMA Script que pertanyen a Javascript i a Javascript Modern. </h2>
+        Sempre es considerarà 'Modern Javascript' l'ultima generació de frameworks i <br>
+        llibreries. Ara mateix es pot considerar Deno pero fa 7 anys va ser React.
+    <h2> 3. Qui va crear Javascript? De quina empresa era? </h2>
+        Brendan Eich, que treballava a Netscape, va ser asignat crear un nou llenguatge <br>
+        d'scripting. El seu nom en codi va ser 'Mocha' pero després es va passar a dir <br>
+        LiveScript i no molt més tard va acabar dient-se Javascript per aprofitar-se de <br>
+        la fama que en aquell moment tenia Java.
+    <h2> 4. Quina empresa hi ha actualment darrera de Javascript? </h2>
+        Darrera del estandar ECMAScript (de la que Javascript depen) hi ha la ECMA <br>
+        (European Computer Manufacturers Association)
+    <h2> 5. Què és una arrow function? A quin ES apareix (quin any). </h2>
+        Una arrow funcion es una forma compacta i senzilla de utilitzar funcions. <br>
+        Apareix en el ES6 al any 2015
+    <h2> 6. Què és un callback? Posa un exemple. </h2>
+        A Javascript podem passar funcions com parametres per altres funcions. Això es <br>
+        anomenat una funció callback <br>
+        En aquest exemple utilitzarem setTimeout que es una funció basica de JS i com a <br>
+        argument li donarem una altra funció: <br>
+        function hola() { <br>  
+        console.log("Hola"); <br>
+        } <br>
+        setTimeout(hola(), 3000); <br>
+    <h2> 7. Què és una promesa en Javascript (promise). Posa un exemple. <br>
+         Explica també la diferència entre la programació síncrona i la programació asíncrona, posa un exemple.</h2>
+        Amb una promesa deixes a javascript esperant a algo mentre segueix executant codi <br>
+        Pot tenir tres estats: pendent, completat o fallit. Un exemple pot ser: <br>
+        let promesa = new Promise(function(resolve, reject) { <br>
+            resolve("No errors!"); <br>  
+        } <br>
+        Podem completar o fallar una promesa amb resolve i reject. <br>
 </body>
 </html>
